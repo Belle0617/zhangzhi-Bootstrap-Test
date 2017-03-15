@@ -1,0 +1,272 @@
+@charset "utf-8";
+* {
+    margin: 0;
+    padding: 0;
+}
+/* 导航栏 */
+
+.header-bg {
+    padding-top:15px;
+    background-color: #f8f8f8;
+    overflow: hidden;
+}
+.nav-border{
+    border:none;
+}
+
+.img-logo {
+    width: 179px;
+    height: 50px;
+    background: url('../images/logo.png') no-repeat;
+    background-size: contain;
+}
+
+
+/* “首页”的banner图 */
+
+.main-banner-bg {
+    width: 100%;
+    overflow: hidden;
+    margin: 0 auto;
+}
+
+.main-banner-bg .item img {
+    margin: 0 auto;
+}
+
+.main-banner-bg .carousel-inner .banner-item1 {
+    background-color: #223240;
+}
+
+.main-banner-bg .carousel-inner .banner-item2 {
+    background-color: #f5e4db;
+}
+
+.main-banner-bg .carousel-inner .banner-item3 {
+    background-color: #a81f22;
+}
+
+
+/* “首页”的内容 */
+
+.main-content {
+    background-color: #fff;
+    padding: 20px 0 50px 0;
+    overflow: hidden;
+}
+
+
+/* 内容1 */
+
+.main-content .main-title {
+    text-align: center;
+    overflow: hidden;
+}
+
+.main-content .main-title h3 {
+    color: #0059b2;
+    line-height: 50px;
+}
+
+.main-content .main-title p {
+    color: #999;
+    line-height: 20px;
+}
+
+.main-content .main-media-content {
+    padding-top: 50px;
+    margin-top: 0px;
+}
+
+.main-content .media .media-body h4 {
+    padding-top: 5px;
+}
+
+.main-content .media .media-body del {
+    color: #999;
+    line-height: 30px;
+    font-size: 12px;
+}
+
+.main-content .media .media-body p {
+    font-size: 12px;
+    line-height: 30px;
+}
+
+
+/* 内容2 */
+
+.main-content2 {
+    width: 100%;
+    background-color: #eee;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content2 .main-content2-learn {
+    padding-top: 150px;
+}
+
+.main-content3 {
+    width: 100%;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.main-content3 .main-content3-manage {
+    padding-top: 70px;
+}
+
+
+/* ”资讯“的内容 */
+
+.message-content {
+    background-color: #eee;
+    padding: 40px 0 60px 0;
+}
+
+
+/* 左边的内容 */
+
+.message-content .message-content-media {
+    background-color: #FFF;
+    padding: 20px 20px 20px 20px;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.message-content .message-content-media img {
+    margin-right: 10px;
+}
+
+@media(max-width: 768px) {
+    .message-content .message-content-media img {
+        width: 150px;
+    }
+}
+
+.message-content .message-content-media p {
+    font-size: 14px;
+    color: #666;
+    line-height: 24px;
+}
+
+.message-content .message-content-media small {
+    color: #666;
+    line-height: 30px;
+}
+
+
+/* 右边的内容 */
+
+.message-content .message-right-content {
+    background-color: #FFF;
+    padding: 20px 10px 20px 10px;
+    box-shadow: 4px 4px 4px #ccc;
+}
+
+.message-content .message-right-content img {
+    width: 150px;
+    height: 95px;
+    background-size: contain;
+}
+
+.message-content .message-right-content small {
+    color: #666;
+    line-height: 30px;
+}
+
+
+/* 案例内容 */
+
+.case-content-bg {
+    padding: 50px 0 30px 0;
+}
+
+.case-content-bg .case-content-item {
+    text-align: center;
+}
+
+.case-content-bg .case-content-item p {
+    font-size: 12px;
+    line-height: 24px;
+    color: #666;
+}
+
+
+/* “关于”的标题栏 */
+
+.about-title-bg {
+    width: 100%;
+    height: 200px;
+    background-color: #1b1b1b;
+    overflow: hidden;
+}
+
+.about-title-content {
+    color: #fff;
+    margin-top: 70px;
+}
+
+
+/* “关于”的正文栏 */
+
+ul.nav-tabs {
+    width: 140px;
+    margin-top: 20px;
+    border-radius: 4px;
+    border: 1px solid #ddd;
+    box-shadow: 0 1px 4px rgba(0, 0, 0, 0.067);
+}
+
+ul.nav-tabs li {
+    margin: 0;
+    border-top: 1px solid #ddd;
+}
+
+ul.nav-tabs li:first-child {
+    border-top: none;
+}
+
+ul.nav-tabs li a {
+    margin: 0;
+    padding: 8px 16px;
+    border-radius: 0;
+}
+
+ul.nav-tabs li.active a,
+ul.nav-tabs li.active a:hover {
+    color: #fff;
+    background: #0088cc;
+    border: 1px solid #0088cc;
+}
+
+ul.nav-tabs li:first-child a {
+    border-radius: 4px 4px 0 0;
+}
+
+ul.nav-tabs li:last-child a {
+    border-radius: 0 0 4px 4px;
+}
+
+ul.nav-tabs.affix {
+    top: 30px;
+    /* Set the top position of pinned element */
+}
+
+
+/* “关于”的页脚 */
+
+.footer-bg {
+    width: 100%;
+    height: 105px;
+    background-color: #666;
+    overflow: hidden;
+}
+
+.footer-content {
+    font-size: 10px;
+    text-align: center;
+    color: #ddd;
+    line-height: 20px;
+    padding-top: 30px;
+}
